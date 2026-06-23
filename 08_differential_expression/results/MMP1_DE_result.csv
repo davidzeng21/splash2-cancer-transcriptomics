@@ -1,0 +1,2 @@
+"gene_name","ensembl_id","log2FC_tumor_vs_normal","median_tumor_cpm","median_normal_cpm","wilcox_statistic","p_value","p_value_BH","n_pairs","test"
+"MMP1","ENSG00000196611.5",3.914,25.8,0.8,5752,5.75405146950768e-19,5.75405146950768e-19,107,"paired Wilcoxon signed-rank"

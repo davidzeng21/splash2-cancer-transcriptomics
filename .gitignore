@@ -1,0 +1,94 @@
+# ──────────────────────────────────────────────
+# Large data and raw sequencing files
+# ──────────────────────────────────────────────
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.satc
+*.parquet
+*.fasta
+*.fa
+
+# SPLASH2 large outputs
+classified_compactors.tsv
+compactors_fasta.fa
+extendor_proportions.tsv
+extendor_proportions.parquet
+anchors_superset.txt
+anchors_es_ge0.2.txt
+
+# Downloaded data directories
+GDCdata/
+ref_genomes/
+CPTAC_Lung_Adeno_matched*/
+
+# Large BLAST outputs
+06_blast_annotation/results/
+
+# ──────────────────────────────────────────────
+# Job logs and intermediate outputs
+# ──────────────────────────────────────────────
+*.out
+*.err
+slurm-*.out
+*_tmp*
+temp/
+tmp/
+
+# ──────────────────────────────────────────────
+# Sensitive information
+# ──────────────────────────────────────────────
+*token*
+*credential*
+*key*
+.secret
+.env
+
+# ──────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ──────────────────────────────────────────────
+# R
+# ──────────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.rds
+
+# ──────────────────────────────────────────────
+# IDE and OS
+# ──────────────────────────────────────────────
+.vscode/
+.idea/
+.cursor/
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+*.swp
+*~
+
+# ──────────────────────────────────────────────
+# Jupyter
+# ──────────────────────────────────────────────
+.ipynb_checkpoints
+
+# ──────────────────────────────────────────────
+# Misc
+# ──────────────────────────────────────────────
+*.bak
+*.backup
+*.log
+.coverage
+.pytest_cache/

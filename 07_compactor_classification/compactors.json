@@ -1,0 +1,6 @@
+{
+  "num_threads": 127,
+  "epsilon": 0.001,
+  "kmer_len": 27
+}
+
